@@ -1,4 +1,44 @@
+<!------------------------- VERSION CON  CSS ------------------------->
 <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Registro de Préstamos de Libros</title>
+</head>
+
+<body>
+    <div id="banner">
+        <h1>Registro de Préstamos de Libros</h1>
+    </div>
+    <form id="prestamoForm">
+        <div id="titulo2">
+            <h2>Formulario para Préstamos de Libros</h2>
+        </div>
+        <div id="camposForm">
+            <label for="nombre">Nombre del Estudiante:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="titulo">Título del Libro:</label>
+            <input type="text" id="titulo" name="titulo" required><br><br>
+            <label for="fecha_prestamo">Fecha de Préstamo:</label>
+            <input type="date" id="fecha_prestamo" name="fecha_prestamo" required><br><br>
+            <label for="fecha_devolucion">Fecha de Devolución:</label>
+            <input type="date" id="fecha_devolucion" name="fecha_devolucion" required><br><br>
+            <input  class="botonG" type="button" value="Registrar Préstamo" onclick="registrarPrestamo()">
+        </div>
+        </div>
+    </form>
+    <div id="mensaje"></div>
+    <script src="conexion.js"></script>
+</body>
+
+</html>
+
+
+<!------------------------- VERSION CON  BOOTSTRAP ------------------------->
+<!-- <!DOCTYPE html>
 <html>
 
 <head>
@@ -53,4 +93,4 @@
     <script src="conexion.js"></script>
 </body>
 
-</html>
+</html> -->

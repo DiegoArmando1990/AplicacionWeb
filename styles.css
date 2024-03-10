@@ -1,0 +1,128 @@
+/* Estilos generales para el formulario */
+form {
+    max-width: 93%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para etiquetas de campo */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #58585b;
+}
+
+/* Estilos para campos de entrada de texto */
+input[type="text"],
+input[type="date"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+/* Estilos para el botón de envío */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Cambio de color al pasar el cursor sobre el botón de envío */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    padding-left: 100px;
+}
+
+/* Estilos para la div de mensajes de respuesta */
+#mensaje {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: #454547;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Estilos para el contenedor de titulo */
+#banner {
+    background-color: #454547;
+    padding: 5px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el título General */
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    color: white;
+    width: 100%;
+    height: 100%;
+
+}
+
+/* Estilos para el  contenedor del h2 */
+#titulo2 {
+
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #ccc;
+    padding: 2px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+/* Estilos para el  titulo del formulario */
+h2 {
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 3px;
+}
+/*Estilos para el contenido del formulario*/
+#camposForm {
+    
+    padding: 2px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+/* Estilos para el boton */
+.botonG {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    border-width: 2px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 1rem;
+}
+/* Acciones para el boton */
+.botonG:hover {
+    background-color: #0b5ed7;
+    border-color: #0b5ed7;
+}
+.botonG.focus{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+.botonG:active {
+    background-color: #0a58c2;
+    border-color: #0a58c2;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25);
+}
